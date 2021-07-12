@@ -1,5 +1,6 @@
 body {
   background-color: #00828d;
+  font-family: sans-serif;
 }
 
 .selections {
@@ -43,4 +44,22 @@ body {
 .result-selection.winner {
   opacity: 1;
   font-size: 3.5rem;
+}
+
+.game-winner-wrapper {
+  text-align: center;
+  max-width: 800px;
+  margin: 2rem auto 0;
+}
+
+.game-winner-wrapper p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button--reset {
+  text-align: center;
+  margin: 2rem auto 0;
+  display: flex;
+  justify-content: center;
 }
